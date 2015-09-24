@@ -1,0 +1,6 @@
+﻿<parameters>
+  <parameter name="AppInsightKey">
+    <parameterEntry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='AppInsightKey']/@value" />
+    <parameterEntry kind="XmlFile" scope="\\ApplicationInsights.config$" match="/*[local-name()='ApplicationInsights' and namespace-uri()='http://schemas.microsoft.com/ApplicationInsights/2013/Settings']/*[local-name()='InstrumentationKey' and namespace-uri()='http://schemas.microsoft.com/ApplicationInsights/2013/Settings']/text()" />
+  </parameter>
+</parameters>
