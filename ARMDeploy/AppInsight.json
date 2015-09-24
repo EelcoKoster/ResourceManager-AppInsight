@@ -10,7 +10,8 @@
       "defaultValue": "appinsightplan"
     },
     "siteLocation": {
-      "type": "string"
+      "type": "string",
+      "defaultValue" : "West Europe"
     },
     "sku": {
       "type": "string",
@@ -34,7 +35,7 @@
     },
     "DeployPackageUri": {
       "type": "string",
-      "default": "https://github.com/EelcoKoster/ResourceManager-AppInsight/raw/master/Deploy/AppInsightTest.zip"
+      "defaultValue": "https://github.com/EelcoKoster/ResourceManager-AppInsight/raw/master/Deploy/AppInsightTest.zip"
     }
   },
   "resources": [
