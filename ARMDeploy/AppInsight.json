@@ -33,7 +33,8 @@
       "defaultValue": "0"
     },
     "DeployPackageUri": {
-      "type": "string"
+      "type": "string",
+      "default": "https://github.com/EelcoKoster/ResourceManager-AppInsight/raw/master/Deploy/AppInsightTest.zip"
     }
   },
   "resources": [
