@@ -128,7 +128,7 @@
             "metricName": "Http5xx"
           },
           "operator": "GreaterThan",
-          "threshold": 0.0,
+          "threshold": 2.0,
           "windowSize": "PT5M"
         },
         "action": {
